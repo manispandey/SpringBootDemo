@@ -1,0 +1,5 @@
+package com.jdbcSample;
+
+public class SpringBootJdbcController {
+
+}

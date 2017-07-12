@@ -1,0 +1,24 @@
+package com.sample.springDataJpa;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController  
+public class UserController {
+
+	  @Autowired  
+	    private UserService userService;   
+	  
+	  @RequestMapping("/")  
+	    public List<UserRecord> getAllUser(){  
+	        returnuserService.getAllUsers();  
+	    }     
+	    @RequestMapping(value="/add-user", method=RequestMethod.POST)  
+	    publicvoid addUser(@RequestBody UserRecord userRecord){  
+	        userService.addUser(userRecord);  
+	    }  
+	    @RequestMapping(value="/user/{id}", method=RequestMethod.GET)  
+	    public Optional<UserRecord> getUser(@PathVariable String id){  
+	        returnuserService.getUser(id);  
+	    }  
+}

@@ -1,0 +1,8 @@
+package com.sample.springDataJpa;
+
+public class UserRecord {
+	private int id;  
+    private String name;  
+    private String email;  
+  
+}

@@ -1,0 +1,29 @@
+package com.jdbcSample;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringBootJdbcController {
+    
+	@Autowired
+	JdbcTemplate jdbc;  
+	
+	@Autowired
+	User user;
+	
+	@RequestMapping("/insert")
+	 public String index(){ 
+		String query = "select * from User";
+		
+	        jdbc.execute("insert into user(name,email)values('javatpoint','java@javatpoint.com')"); 
+	        List<Map> user = jdbc.queryForList(query);
+	        return"data inserted Successfully";  
+	    }  
+}

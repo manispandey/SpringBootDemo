@@ -1,0 +1,16 @@
+package com.personal;
+
+import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
+import org.springframework.boot.context.embedded.EmbeddedServletContainer;
+import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomizationBean implements EmbeddedServletContainerCustomizer{
+    @Override
+	public void customize(ConfigurableEmbeddedServletContainer ex)
+  {
+    	ex.setPort(8091);
+  }
+	
+}

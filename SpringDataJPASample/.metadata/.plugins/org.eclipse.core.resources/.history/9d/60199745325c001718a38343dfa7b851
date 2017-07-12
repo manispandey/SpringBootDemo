@@ -1,0 +1,11 @@
+package com.sample.springDataJpa;
+
+import javax.persistence.Entity;
+
+@Entity
+public class UserRecord {
+	private int id;  
+    private String name;  
+    private String email;  
+  
+}

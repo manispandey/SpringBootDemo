@@ -1,0 +1,16 @@
+package com.sample.springDataJpa;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import groovy.transform.IndexedProperty;
+
+@Entity
+public class UserRecord {
+	
+	@Id
+	private int id;  
+    private String name;  
+    private String email;  
+  
+}

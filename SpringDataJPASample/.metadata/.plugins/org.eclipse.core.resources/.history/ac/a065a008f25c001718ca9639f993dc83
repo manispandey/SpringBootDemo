@@ -1,0 +1,11 @@
+package com.jdbcSample;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringBootJdbcController {
+  
+	
+	JdbcTemplate jdbc;  
+}

@@ -1,0 +1,6 @@
+package com.personal;
+
+@Controller 
+public class HelloWorldController {
+    
+}

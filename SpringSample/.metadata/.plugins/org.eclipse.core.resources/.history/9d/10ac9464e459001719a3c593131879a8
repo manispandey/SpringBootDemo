@@ -1,0 +1,5 @@
+package com.manish.personal;
+
+public class AnnotataionPerson {
+  String name;
+}

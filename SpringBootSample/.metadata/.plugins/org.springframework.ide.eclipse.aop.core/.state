@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-boot-example"/>
+<aop-project name="spring-boot-web-thymeleaf"/>
+<aop-project name="spring-boot-sample-application"/>
+<aop-project name="spring-boot-app"/>
+</aop-reference-model>

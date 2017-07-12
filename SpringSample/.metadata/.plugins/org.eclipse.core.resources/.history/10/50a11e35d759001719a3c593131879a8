@@ -1,0 +1,7 @@
+package com.mkyung.common;
+
+public class HelloWorld {
+   String msg;
+   
+   
+}

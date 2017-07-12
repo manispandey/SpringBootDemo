@@ -1,0 +1,11 @@
+package com.practice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeController {
+
+	  public String hello(){  
+	        return"Hello! Manish Pandey ,,,,This is ur First Spring Boot Application";  
+	    }  
+}

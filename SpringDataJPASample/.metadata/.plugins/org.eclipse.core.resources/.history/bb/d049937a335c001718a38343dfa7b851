@@ -1,0 +1,6 @@
+package com.sample.springDataJpa;
+
+@RestController  
+public class UserController {
+
+}

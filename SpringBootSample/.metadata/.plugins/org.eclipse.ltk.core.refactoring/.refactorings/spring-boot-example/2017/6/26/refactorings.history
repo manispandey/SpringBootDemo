@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CustomizationBean.java&apos; to &apos;spring-boot-sample-application/src/main/java/com.practice&apos;&#x0A;- Original project: &apos;spring-boot-example&apos;&#x0A;- Destination element: &apos;spring-boot-sample-application/src/main/java/com.practice&apos;&#x0A;- Original element: &apos;com.personal.CustomizationBean.java&apos;" description="Copy compilation unit" destination="=spring-boot-sample-application/src\/main\/java&lt;com.practice" element1="/src\/main\/java&lt;com.personal{CustomizationBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1498502341904" units="1" version="1.0"/>
+</session>

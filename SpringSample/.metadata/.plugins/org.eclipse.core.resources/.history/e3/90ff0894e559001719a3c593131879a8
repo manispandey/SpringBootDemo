@@ -1,0 +1,15 @@
+package com.manish.personal;
+
+@Service
+@Scope("prototype")
+public class AnnotataionPerson {
+  String name;
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+}

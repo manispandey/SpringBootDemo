@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Data Sample App
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: manish
+Implementation-Vendor-Id: com.personal.springDataJpa
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/springDataJp
+ a/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
